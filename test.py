@@ -1,0 +1,7 @@
+num_int1, num_int2 = input("Enter two numbers with a space, then press enter").split()
+sum1 = int(num_int1) + int(num_int2)
+dif1 = int(num_int1) - int(num_int2)
+num_float1, num_float2 = input("Enter two float numbers with a space btwn them").split()
+sum2 = float(num_float1) + float(num_float2)
+dif2 = float(num_float1) - float(num_float2)
+print(sum1,dif1,sum2,dif2)
