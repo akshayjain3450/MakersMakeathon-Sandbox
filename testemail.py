@@ -25,5 +25,5 @@ for i in range(len(email_list)):
     s.ehlo()
     s.login("", "")
     message = name_list[i] + "-" + "Did you get my mail"
-    s.sendmail("akshayjain3450@gmail.com", email_list[i], message)
+    s.sendmail("Write the EMAIL ID", email_list[i], message)
     s.quit()
